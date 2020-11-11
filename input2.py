@@ -48,18 +48,3 @@ print()
 print("Sekarang baca kalimat dibawah!")
 print(" ".join(lst))
 print("awokwaokok")
-
-
-
-# gans = input("Menurutmu, siapa makhluk paling ganteng?\n--> ")
-# while bau != "bau" or bau != "sangat bau" or bau != "lumayan bau":
-#     bau = input("Bagaimana selokan dirumahmu?\nbau/sangat bau/lumayan bau\n--> ")
-# while sukan != "sudah" or sukan != "belum":
-#     sukan = input("Pada meeting online terakhir, apakah kamu sudah makan?\nsudah/belum\n-->")
-# gigi = input("Setelah mandi apa yang kamu lakukan?\n-->")
-# while type(makan) != int:
-#     makan = input("Berapa kali rata-rata kamu makan dalam sehari?-->")
-# while hari != "hari" or hari != "bulan" or hari != "tahun"
-#     hari = input("Menurutmu gaji yang tepat diberi setiap...\nhari/bulan/tahun\n-->")
-# waktu = input("Berapa waktu ideal untuk belajar?\n-->")
-# sattu = input("jam/menit/detik\n-->")
