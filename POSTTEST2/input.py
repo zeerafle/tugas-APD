@@ -1,12 +1,12 @@
 print("Survey !")
-waktu = input("Berapa waktu ideal untuk belajar? (angka saja)\n--> ")
-
 while True:
-    sattu = input("jam/menit/detik\n--> ")
+    sattu = input("Pilih satuan berikut untuk berapa lama waktu ideal belajar\njam/menit/detik\n--> ")
     if sattu == "jam" or sattu == "menit" or sattu == "detik":
         break
     else:
         continue
+
+waktu = input("Berapa waktu ideal untuk belajar? (angka saja)\n--> ")
 
 while True:
     hari = input("Menurutmu gaji yang tepat diberi setiap...\nhari/bulan/tahun\n--> ")
@@ -41,10 +41,13 @@ while True:
 
 gans = input("Menurutmu, siapa makhluk paling ganteng?\n--> ")
 
-lst = [gans, bau, sukan, gigi, makan, hari, waktu, sattu]
+lst = [sattu, waktu, hari, makan, gigi, sukan, bau, gans]
+print("terima kasih, berikut adalah hasil yang kamu input")
+print(lst)
+print()
+lst.reverse()
 lst.insert(2, "karena")
 print("="*30)
 print()
 print("Sekarang baca kalimat dibawah!")
 print(" ".join(lst))
-print("awokwaokok")
